@@ -19,7 +19,21 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+//    @IBAction func openDetails(_ sender: Any) {
+//        let controller = DetailsViewController(nibName: nil, bundle: nil)
+//        
+//        self.present(controller, animated: true, completion: nil)
+//    }
 
+    
+    
+    @IBAction func openSettings(_ sender: Any) {
+        let controller = SettingsViewController(nibName: nil, bundle: nil)
+        
+        self.present(controller, animated: true, completion: nil)
+    }
+    
+    
 
 }
 

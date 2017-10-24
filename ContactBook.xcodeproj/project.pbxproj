@@ -15,6 +15,9 @@
 		FDE191A71F9F78C800E0F3F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE191A51F9F78C800E0F3F6 /* LaunchScreen.storyboard */; };
 		FDE191B21F9F78C800E0F3F6 /* ContactBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE191B11F9F78C800E0F3F6 /* ContactBookTests.swift */; };
 		FDE191BD1F9F78C800E0F3F6 /* ContactBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE191BC1F9F78C800E0F3F6 /* ContactBookUITests.swift */; };
+		FDE191CE1F9F82A400E0F3F6 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE191CC1F9F82A400E0F3F6 /* DetailsViewController.swift */; };
+		FDE191D21F9F82F600E0F3F6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE191D01F9F82F600E0F3F6 /* SettingsViewController.swift */; };
+		FDE191D31F9F82F600E0F3F6 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDE191D11F9F82F600E0F3F6 /* SettingsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		FDE191B81F9F78C800E0F3F6 /* ContactBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE191BC1F9F78C800E0F3F6 /* ContactBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactBookUITests.swift; sourceTree = "<group>"; };
 		FDE191BE1F9F78C800E0F3F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE191CC1F9F82A400E0F3F6 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		FDE191D01F9F82F600E0F3F6 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FDE191D11F9F82F600E0F3F6 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 			children = (
 				FDE191991F9F78C800E0F3F6 /* AppDelegate.swift */,
 				FDE1919B1F9F78C800E0F3F6 /* ViewController.swift */,
+				FDE191CC1F9F82A400E0F3F6 /* DetailsViewController.swift */,
+				FDE191D01F9F82F600E0F3F6 /* SettingsViewController.swift */,
+				FDE191D11F9F82F600E0F3F6 /* SettingsViewController.xib */,
 				FDE1919D1F9F78C800E0F3F6 /* Main.storyboard */,
 				FDE191A31F9F78C800E0F3F6 /* Assets.xcassets */,
 				FDE191A51F9F78C800E0F3F6 /* LaunchScreen.storyboard */,
@@ -238,6 +247,7 @@
 				FDE191A71F9F78C800E0F3F6 /* LaunchScreen.storyboard in Resources */,
 				FDE191A41F9F78C800E0F3F6 /* Assets.xcassets in Resources */,
 				FDE1919F1F9F78C800E0F3F6 /* Main.storyboard in Resources */,
+				FDE191D31F9F82F600E0F3F6 /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +275,8 @@
 				FDE1919C1F9F78C800E0F3F6 /* ViewController.swift in Sources */,
 				FDE1919A1F9F78C800E0F3F6 /* AppDelegate.swift in Sources */,
 				FDE191A21F9F78C800E0F3F6 /* ContactBook.xcdatamodeld in Sources */,
+				FDE191D21F9F82F600E0F3F6 /* SettingsViewController.swift in Sources */,
+				FDE191CE1F9F82A400E0F3F6 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
